@@ -35,3 +35,9 @@
 - spring-boot-starter-security : 스프링 시큐리티 (인증, 권한)
 - spring-boot-starter-data-jpa : Spring Data JPA (Hibernate)
 - spring-boot-starter-cache : 캐시
+---
+#```MVC패턴```
+- 디자인 패턴 중 하나인 MVC 패턴은 Model, View, Controller의 줄임말로 어플리케이션을 구성할 때 그 구성요소를 세가지의 역할로 구분한 패턴을 의미
+- 사용자 인터페이스로부터 비즈니스 로직을 분리하여 서로 영향 없이 쉽게 고칠 수 있는 설계가 가능
+![image](https://github.com/user-attachments/assets/51b7670e-89f6-4a24-9c6f-55a7016c26ac)
+
