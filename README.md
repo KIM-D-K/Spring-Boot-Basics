@@ -13,3 +13,6 @@
 - Spring ORM
 - Spring Test
 - Spring Expression Language(SpEL)
+--
+#스프링 부트가 나오게 된 이유
+- 스프링 부트는 단지 실행만 하면 되는 스프링 기반의 어플리케이션을 쉽게 만들 수 있다.
