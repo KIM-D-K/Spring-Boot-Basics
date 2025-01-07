@@ -40,4 +40,37 @@
 - 디자인 패턴 중 하나인 MVC 패턴은 Model, View, Controller의 줄임말로 어플리케이션을 구성할 때 그 구성요소를 세가지의 역할로 구분한 패턴을 의미
 - 사용자 인터페이스로부터 비즈니스 로직을 분리하여 서로 영향 없이 쉽게 고칠 수 있는 설계가 가능
 ![image](https://github.com/user-attachments/assets/51b7670e-89f6-4a24-9c6f-55a7016c26ac)
-
+---
+#```컨트롤러 (Controller)
+- 모델(Model)과 뷰(View)사이에서 브릿지 역할을 수행
+- 앱의 사용자로부터 입력에 대한 응답으로 모델 및 뷰를 업데이트 하는 로직을 포함
+- 사용자의 요청은 모두 컨트롤러를 통해 진행되어야 함
+- 컨트롤러로 들어온 요청은 어떻게 처리할지 결정하여 모델로 요청을 전달함
+---
+#```모델(Model)```
+- 데이터를 처리하는 영역
+- 데이터베이스와 연동을 위한 DAO(Data Access Object)와 데이터의 구조를 표현하는 DO(Data Object)로 구성됨
+---
+#```뷰(View)```
+- 데이터를 보여주는 화면 자체의 영역을 뜻함
+- 사용자 인터페이스(UI)요소들이 여기에 포함되어, 데이터를 각 요소에 배치함
+- 뷰에서는 별도의 데이터를 보관하지 않음
+---
+#```API란?```
+- Application Programming Interface의 줄임말
+- 응용 프로그램에서 사용할 수 있도록 다른 응용 프로그램을 제어할 수 있게 만든 인터페이스를 뜻함
+- API를 사용하면 내부 구현 로직을 알지 못해도 정의되어 있는 기능을 쉽게 사용할 수 있음
+---
+#```REST란?```
+- REST는 Representational State Transfer의 줄임말
+- 자원의 이름으로 구분하여 해당 자원의 상태를 교환하는 것을 의미
+- REST는 서버와 클라이언트의 통신 방식 중 하나임
+- HTTP URI(Uniform Resource Identifier)를 통해 자원을 명시하고 HTTP Method를 통해 자원을 교환하는 것 (HTTP Method : Create, Read, Update, Delete)
+---
+#```REST 특징```
+- Server-Client
+  - 자원이 있는 쪽이 Server, 요청하는 쪽이 Client 클라이언트와 서버가 독립적으로 분리되어 있어야 함
+- Stateless
+  - 요청 간에 클라이언트 정보가 서버에 저장되지 않음 서버는 각각의 요청을 완전히 별개의 것으로 인식하고 처리
+- Cacheable
+  - HTTP 프로토콜을 그대로 사용하기 때문에 HTTP의 특징인 캐싱 기능을 적용 대량의 요청을 효율적으로 처리하기 위해 캐시를 사용  
