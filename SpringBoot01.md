@@ -96,5 +96,4 @@
   - 컴파일 과정에 삽입하는 방식
   - 바이트코드를 메모리에 로드하는 과정에 삽입하는 방식
   - 프락시 패턴을 이용한 방식
-ex)
 ![image](https://github.com/user-attachments/assets/e66b0b5c-f729-4bf8-8703-793bd6e581c0)
