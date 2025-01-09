@@ -98,4 +98,7 @@
   - 프락시 패턴을 이용한 방식
 
 ![image](https://github.com/user-attachments/assets/eb5ecb99-10fa-4bc4-8aad-aa3b8901de76)
-
+---
+#```스프링 프레임워크의 다양한 모듈```
+- 스프링 프레임워크는 기능별로 구분된 약 20여 개의 모듈로 구성되어 있다.
+![image](https://github.com/user-attachments/assets/6e985789-a584-4799-8480-12efb61e789c)
